@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MovieActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+
+   <VideoView
+       android:id="@+id/videoView"
+       android:layout_width="match_parent"
+       android:layout_height="200dp"
+       android:layout_alignParentTop="true"
+       android:layout_centerHorizontal="true"/>
+    <Button
+        android:id="@+id/bookmovie"
+        android:layout_width="match_parent"
+        android:layout_height="30dp"
+        android:text="Book"
+        android:onClick="ShowPopup"
+        android:background="@color/yellow"
+        android:layout_below="@+id/videoView"/>
+
+
+           <TextView
+               android:id="@+id/textViewTitle"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_marginLeft="5dp"
+               android:text="Apple MacBook Air Core i5 5th Gen - (8 GB/128 GB SSD/Mac OS Sierra)"
+               android:textAppearance="@style/Base.TextAppearance.AppCompat.Large"
+               android:textColor="@color/black"
+               />
+
+           <TextView
+               android:id="@+id/textViewtype"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/textViewTitle"
+               android:layout_marginLeft="5dp"
+               android:layout_marginTop="5dp"
+               android:text="13.3 Inch, 256 GB"
+               android:textAppearance="@style/Base.TextAppearance.AppCompat.Small" />
+
+           <TextView
+               android:id="@+id/textViewlanguage"
+               android:layout_width="wrap_content"
+               android:layout_height="wrap_content"
+               android:layout_below="@id/textViewtype"
+               android:layout_marginLeft="5dp"
+               android:layout_marginTop="5dp"
+               android:text="INR 5699"
+               android:textAppearance="@style/Base.TextAppearance.AppCompat.Small"
+               android:textStyle="bold" />
+
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="1dp"
+               android:background="@color/black"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="Synopsis"
+               android:textStyle="bold"/>
+           <TextView
+               android:id="@+id/synopsis"
+        android:layout_width="wrap_content"
+               android:text="abc"
+        android:layout_height="wrap_content" />
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="1dp"
+               android:background="@color/black"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="Cast"
+               android:textStyle="bold"/>
+           <TextView
+               android:id="@+id/cast"
+               android:layout_width="wrap_content"
+               android:text="abc"
+               android:layout_height="wrap_content" />
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="1dp"
+               android:background="@color/black"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="Director"
+               android:textStyle="bold"/>
+           <TextView
+               android:id="@+id/director"
+               android:layout_width="wrap_content"
+               android:text="abc"
+               android:layout_height="wrap_content" />
+           <View
+               android:layout_width="match_parent"
+               android:layout_height="1dp"
+               android:background="@color/black"/>
+           <TextView
+               android:layout_width="match_parent"
+               android:layout_height="match_parent"
+               android:text="Music Director"
+               android:textStyle="bold"/>
+           <TextView
+               android:id="@+id/musicdirector"
+               android:layout_width="wrap_content"
+               android:text="abc"
+               android:layout_height="wrap_content" />
+
+
+    </LinearLayout>
+</ScrollView>

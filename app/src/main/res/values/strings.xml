@@ -1,0 +1,44 @@
+<resources>
+    <string name="app_name">My Ticket</string>
+    <string name="appwidget_text">EXAMPLE</string>
+    <string name="add_widget">Add widget</string>
+    <string name="comedy">Comedy</string>
+    <string name="crime">Crime</string>
+    <string name="historical">Historical</string>
+    <string name="horror">Horror</string>
+    <string name="political">Political</string>
+    <string name="romance">Romance</string>
+    <string name="toolbarTitle">MyTicket</string>
+    <string name="password">Password</string>
+    <string name="forgetpass">Forgot Password?</string>
+    <string name="emailid">Email ID</string>
+    <string name="signup">Sign Up</string>
+    <string name="confrimpass">Confirm Password</string>
+    <string-array name="theatrename">
+        <item>24 Karat Multiplex - Jogeshwari(W)</item>
+        <item>Carnival Annex Mall Borivali</item>
+        <item>Carnival Huma Kanjumarg</item>
+        <item>PVR Citi Mall - Andheri(W)</item>
+        <item>PVR Dynamic - Juhu</item>
+        <item>PVR ICON Infiniti - Andheri(W)</item>
+        <item>PVR ICON Phoenix Lower Parel</item>
+        <item>PVR Market City - Kurla(W)</item>
+    </string-array>
+    <string-array name="seattype">
+        <item>Golden</item>
+        <item>Silver</item>
+        <item>Normal</item>
+    </string-array>
+    <string-array name="noofseat">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+        <item>6</item>
+        <item>7</item>
+        <item>8</item>
+        <item>9</item>
+        <item>10</item>
+    </string-array>
+</resources>
